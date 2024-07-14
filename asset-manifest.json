@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Food-Website/static/css/main.b4b08b96.css",
-    "main.js": "/Food-Website/static/js/main.32e4c6b7.js",
+    "main.js": "/Food-Website/static/js/main.ddf5b964.js",
     "static/media/pizza1.png": "/Food-Website/static/media/pizza1.cecf6edddc2375dff248.png",
     "static/media/delivery.png": "/Food-Website/static/media/delivery.c3f84483508c3ba36fe5.png",
     "static/media/Chef_edit.png": "/Food-Website/static/media/Chef_edit.5a6c7db07effe2ebb91e.png",
@@ -47,10 +47,10 @@
     "static/media/mlks1.jpg": "/Food-Website/static/media/mlks1.96a56c73a5c315f2eeaf.jpg",
     "index.html": "/Food-Website/index.html",
     "main.b4b08b96.css.map": "/Food-Website/static/css/main.b4b08b96.css.map",
-    "main.32e4c6b7.js.map": "/Food-Website/static/js/main.32e4c6b7.js.map"
+    "main.ddf5b964.js.map": "/Food-Website/static/js/main.ddf5b964.js.map"
   },
   "entrypoints": [
     "static/css/main.b4b08b96.css",
-    "static/js/main.32e4c6b7.js"
+    "static/js/main.ddf5b964.js"
   ]
 }
