@@ -1,0 +1,22 @@
+.food-display{
+    padding:0px 5vw;
+    background-color: var(--light-grey);
+}
+
+.food-display h2{
+    color:#262626;
+    font-size:2vw;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.food-display span{
+    color: var(--red);
+}
+
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 3vw;
+    margin: 4vw 3vw 0 3vw;
+}

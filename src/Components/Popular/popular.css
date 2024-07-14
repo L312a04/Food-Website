@@ -1,0 +1,66 @@
+.popularity{
+    margin: 10px 50px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: #686D76;
+    font-weight: 700;
+}
+
+.heading span{
+    color: var(--red);
+}
+
+.box-container{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin: 100px;
+    
+}
+
+.popular .box-container .box{
+    flex: 1 1 250px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0.5px 1px rgba(0,0,0,.1);
+    border: 2px solid rgba(0,0,0,.1);
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+
+.popular .box-container .box .price{
+    background-color: hsl(0, 75%, 51%);
+    color: white;
+    width: 3rem;
+    padding: 5px;
+    border-radius: 0.2rem;
+}
+
+.rating{
+    color: gold;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.popular .box-container .box img{
+    height: 12rem;
+    width: 90%;
+    object-fit:cover;
+}
+
+.popular .box-container .box h3{
+    margin: 10px;
+}
+
+.popular .box-container .box a{
+    margin: 10px;
+}

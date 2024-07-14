@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import Home from './pages/Home/Home';
+import Navbar from './Components/Navbar/Navbar';
+import {Route, Routes} from 'react-router-dom';
+import Cart from './pages/cart/cart';
+import Reviews from './Components/Reviews/review'
+import FoodDisplay from './Components/FoodDisplay/FoodDisplay'
+import Footer from './Components/Footer/Footer';
 
 function App() {
+
+  const [category, setCategory] = useState("All");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/cart' element={<Cart/>}/>
+      <Route path='/reviews' element={<Reviews/>}/>
+      <Route path='/menu' element={<FoodDisplay category={category}/>}/>
+      <Route path='/footer' element={<Footer/>}/>
+    </Routes>
+    </>
   );
 }
 

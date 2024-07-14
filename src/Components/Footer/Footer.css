@@ -1,0 +1,95 @@
+.promo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding:3rem 7rem 3rem 7rem;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(210, 3%, 77%);
+}
+
+/*.app .promotion{
+    flex: 1 1 15rem;
+    color: rgb(50, 49, 49);
+}*/
+
+.promo .apps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.playstore, .appstore{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 5px;
+    align-items: center;
+    padding: 5px;
+    background-color: whitesmoke;
+    max-width: 13rem;
+    text-align: center;
+}
+
+.playstore img{
+    height: 3rem;
+    width: 3rem;
+    padding: 5px;
+    text-wrap: wrap;
+}
+.appstore i{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.footer{
+    background-color: #686D76;
+    color: whitesmoke;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem 0;
+    align-items: center;
+}
+
+.footer p{
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.footer span{
+    padding: 0.5rem;
+}
+
+.footer i{
+    font-size: 1.5rem;
+}
+
+.footer .logo{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.footer .logo i{
+    color: whitesmoke;
+}
+.footer .logo p{
+    text-align: center;
+    font-family:cursive;
+    padding-left: 0.5vw;
+    font-size: 25px;
+    color: black;
+}
+
+.footer #copyright{
+    font-size: 1rem;
+    padding-right: 5px;
+}
+
+.footer .social-media i{
+    padding: 5px;
+    cursor: pointer;
+}
